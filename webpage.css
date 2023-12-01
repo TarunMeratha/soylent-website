@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+.lnav
+{ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   width: 50%;
+}
+.rnav
+{
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    width: 50%;
+}
+ul
+{   
+    display: flex;
+    list-style: none;
+}
+li
+{   
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 10%;
+}
+li.logo
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;   
+    border: 1px solid black;
+    padding: 1%;
+}
+.main
+{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+
+}
+.img
+{   
+    width: 50vw;
+    justify-content: center;
+}
+img
+{
+    width: 100%;
+    height: 100%;
+}
+.right-content
+{    background-color: rgb(7, 238, 238);
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+div.contain
+{
+    flex-wrap: wrap;
+    margin: 20%;
+    
+}
+h1
+{
+    color: black;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+p
+{
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+button
+{
+    width: 10vw;
+    height: 5vh;
+    background-color: rgb(9, 255, 0);
+    border: 1px solid rgb(9, 255, 0);
+    border-radius: 2%;
+    box-shadow: 5px 5px 3px 1px;
+}
